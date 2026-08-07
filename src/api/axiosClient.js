@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const axiosClient = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://lers-backend.onrender.com/api',
   headers: {
     'Content-Type': 'application/json'
   }
